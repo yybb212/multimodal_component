@@ -9,6 +9,7 @@ import CustomLine from './component/Line';
 import CustomButton from './component/CustomButton';
 import DatePicker from './component/DatePicker';
 import TimePicker from './component/TimePicker';
+import CustomImage from './component/CustomImage';
 
 function App() {
   //Table 테스트 데이터
@@ -97,6 +98,10 @@ function App() {
         <h4>Time Picker</h4>
         <Grid item xs={12} md={12}>
             <TimePicker title="시간 테스트" width="100px" />
+        </Grid>
+        <h4>Image</h4>
+        <Grid item xs={12} md={12}>
+            <CustomImage title="테스트 이미지" imageUrl="korea.png" width="200px" height="100px" link="https://www.naver.com" />
         </Grid>
       </Grid>
     </div>
